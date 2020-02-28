@@ -18,12 +18,13 @@ The Hosted version can be found [here](https://affectionate-sinoussi-76a9de.netl
 - display movies in a cart
 
 ## How to run the application
-
 ###### requirement
  - Before you run the application make sure the following are installed
   - `Node, npm or yarn`
 
-###### requirements
+###### requirement
+ - Before you run the application make sure the following are installed
+  - `Node, npm or yarn`
 
   
 ###### installation
