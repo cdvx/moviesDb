@@ -18,8 +18,6 @@ The Hosted version can be found [here]().
 ## How to run the application
 
 ###### requirements
-
-###### requirement
  - Before you run the application make sure the following are installed
   - `Node, npm or yarn`
 
