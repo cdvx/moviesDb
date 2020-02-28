@@ -16,12 +16,14 @@ The Hosted version can be found [here]().
 - display movies in a cart
 
 ## How to run the application
+###### requirement
+ - Before you run the application make sure the following are installed
+  - `Node, npm or yarn`
 
 ###### requirements
 
   
 ###### installation
-
 - clone the repository on the local environment by running:
   `git clone https://github.com/cdvx/moviesDb.git`
 - Run `npm install` if you use npm or `yarn` if you use yarn inorder to install the dependencies
@@ -34,7 +36,7 @@ In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 ### `yarn test`
 
