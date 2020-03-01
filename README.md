@@ -5,15 +5,7 @@
 
 An application that fetches and displays movies from `TheMovieDatabase Api` and also allows users to add movies to cart.
 
-The Hosted version can be found [here](https://affectionate-sinoussi-76a9de.netlify.com/).
-
-## Features
-
-- Display several movie categories
-- Display movies belonging to a selected category with infinite scroll
-- Display detailed page of a movie
-- Add movies to cart
-- Displays movies in a cart
+The Hosted version can be found [here]().
 
 
 ## How to run the application
