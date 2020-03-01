@@ -30,7 +30,7 @@ The Hosted version can be found [here](https://affectionate-sinoussi-76a9de.netl
 
 - Clone the repository on the local environment by running:
   `git clone https://github.com/wycliffkas/MoviesDatabase.git`
-- Create a .env file and add a variable `TMD_TOKEN=<the movies database token>`
+- Create a .env file and add a variable `token=<the movies database token>`
 - Run `source .env` to source the environment variable
 - Run `npm install` if you use npm or `yarn` if you use yarn inorder to install the dependencies
 - Run `yarn start` to launch the app which will automatically launch the app in the browser.

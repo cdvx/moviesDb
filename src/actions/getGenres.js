@@ -1,4 +1,4 @@
-const tmdToken = process.env.TMD_TOKEN;
+const tmdToken = process.env.token;
 const moviesUrl = `https://api.themoviedb.org/3/genre/movie/list?api_key=${tmdToken}&language=en-US`;
 
 import axios from "axios";

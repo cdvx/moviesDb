@@ -1,5 +1,5 @@
 import axios from "axios";
-const tmdToken = process.env.TMD_TOKEN;
+const tmdToken = process.env.token;
 const getMovieById = movieId => {
   const moviesUrl = `https://api.themoviedb.org/3/movie/${movieId}?api_key=${tmdToken}&language=en-US`;
   return dispatch => {
