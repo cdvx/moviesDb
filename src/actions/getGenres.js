@@ -3,6 +3,7 @@ const moviesUrl = `https://api.themoviedb.org/3/genre/movie/list?api_key=${tmdTo
 
 import axios from 'axios';
 
+
 export const genres = () => {
   return dispatch => {
     axios
