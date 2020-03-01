@@ -3,7 +3,11 @@
 
 # The Movies Database (simples demo app React,Redux, MoviesDatabase API, Infinity Scroll)
 
+<<<<<<< HEAD
 An Application that fetches and displays movies from TheMovieDatabase Api
+=======
+# The Movies Database (simple demo app React/Redux/Infinity Scroll)
+>>>>>>> testing and refactor
 
 An Application that fetches and displays movies from TheMovieDatabase Api
 
