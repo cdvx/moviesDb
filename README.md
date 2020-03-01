@@ -2,7 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/wycliffkas/MoviesDatabase/badge.svg?branch=master)](https://coveralls.io/github/wycliffkas/MoviesDatabase?branch=master)
 
 
-# The Movies Database (simple demo app)
+# The Movies Database (simple demo app React/Redux/Infinity Scroll)
 
 The Hosted version can be found [here]().
 
