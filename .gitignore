@@ -9,5 +9,3 @@ dist/
 .vscode/
 yarn.lock
 package-lock.json
-.env
-.DS_Store
