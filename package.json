@@ -63,8 +63,13 @@
       "!src/serviceWorker.js",
       "!src/__tests__/setup/setupEnzyme.js",
       "!src/index.js",
-      "!src/assets/css/**",
-      "!src/store/**"
+      "!src/assets/css/**", <<
+      << << < HEAD "!src/store/**" ===
+      === =
+      "!src/store/**",
+      "!data/keyMap.js",
+      "!/node_modules/" >>>
+      >>> > adding travis and coveralls badge
     ]
   }
 }
