@@ -1,6 +1,7 @@
 import React from 'react';
 
 const NotFound = () => (
+  
   <div
     style={{
       paddingTop: '50px',
