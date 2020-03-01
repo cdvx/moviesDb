@@ -8,6 +8,7 @@
     "build": "webpack --mode production",
     "test": "jest",
     "test:watch": "jest --watch",
+<<<<<<< HEAD
     <<
     << << < HEAD "test:coverage": "jest --coverage",
     ===
@@ -15,6 +16,10 @@
     "test:coverage": "jest --coverage --colors",
     >>>
     >>> > adding travis and coveralls badge "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+=======
+    "test:coverage": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+>>>>>>> add more tests
   },
   "author": "jude",
   "license": "MIT",
