@@ -5,7 +5,7 @@
 
 An Application that fetches and displays movies from TheMovieDatabase Api
 
-The Hosted version can be found [here](https://affectionate-sinoussi-76a9de.netlify.com/).
+The Hosted version can be found [here]().
 
 ## Features
 
@@ -17,9 +17,7 @@ The Hosted version can be found [here](https://affectionate-sinoussi-76a9de.netl
 
 ## How to run the application
 
-###### requirement
- - Before you run the application make sure the following are installed
-  - `Node, npm or yarn`
+###### requirements
 
 ###### requirement
  - Before you run the application make sure the following are installed
