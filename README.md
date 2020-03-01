@@ -15,6 +15,7 @@ The Hosted version can be found [here]().
 - Add movies to cart
 - display movies in a cart
 
+
 ## How to run the application
 
 ###### requirements
