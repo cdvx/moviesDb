@@ -1,21 +1,15 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const Dotenv = require("dotenv-webpack");
 
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "build"),
-    publicPath: "/",
-    filename: "bundle.js"
+    path: path.join(__dirname, "/dist"),
+    filename: "index_bundle.js"
   },
   module: {
-<<<<<<< HEAD
-    rules: [{
-=======
     rules: [
       {
->>>>>>> adding travis and coveralls badge
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
@@ -24,15 +18,6 @@ module.exports = {
       },
       {
         test: /\.html$/,
-<<<<<<< HEAD
-        use: [{
-          loader: "html-loader"
-        }]
-      },
-      {
-        test: /\.(css|scss)$/,
-        use: [{
-=======
         use: [
           {
             loader: "html-loader"
@@ -43,7 +28,6 @@ module.exports = {
         test: /\.(css|scss)$/,
         use: [
           {
->>>>>>> adding travis and coveralls badge
             loader: "style-loader"
           },
           {
@@ -59,14 +43,6 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-<<<<<<< HEAD
-        use: [{
-          loader: "svg-url-loader",
-          options: {
-            limit: 10000
-          }
-        }]
-=======
         use: [
           {
             loader: "svg-url-loader",
@@ -75,7 +51,6 @@ module.exports = {
             }
           }
         ]
->>>>>>> adding travis and coveralls badge
       }
     ]
   },
@@ -83,11 +58,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/index.html",
       filename: "./index.html"
-    }),
-    new Dotenv()
+    })
   ]
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> adding travis and coveralls badge
