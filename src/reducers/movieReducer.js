@@ -19,20 +19,16 @@ const moviesReducer = (state, action) => {
       }
     }
     case "GET_MOVIES_ERROR": {
-      if (action.payload) {
-        return {
-          ...state,
-          message: action.payload
-        };
-      }
+      return {
+        ...state,
+        error: action.payload
+      };
     }
     case "MORE_MOVIES_ERROR": {
-      if (action.payload) {
-        return {
-          ...state,
-          message: action.payload
-        };
-      }
+      return {
+        ...state,
+        error: action.payload
+      };
     }
     case "EACH_MOVIE": {
       if (action.payload) {
