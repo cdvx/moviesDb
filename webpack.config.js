@@ -10,8 +10,7 @@ module.exports = {
     filename: "bundle.js"
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
@@ -20,16 +19,13 @@ module.exports = {
       },
       {
         test: /\.html$/,
-        use: [
-          {
-            loader: "html-loader"
-          }
-        ]
+        use: [{
+          loader: "html-loader"
+        }]
       },
       {
         test: /\.(css|scss)$/,
-        use: [
-          {
+        use: [{
             loader: "style-loader"
           },
           {
@@ -45,14 +41,12 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-        use: [
-          {
-            loader: "svg-url-loader",
-            options: {
-              limit: 10000
-            }
+        use: [{
+          loader: "svg-url-loader",
+          options: {
+            limit: 10000
           }
-        ]
+        }]
       }
     ]
   },
