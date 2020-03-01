@@ -66,9 +66,7 @@
       "!src/__tests__/setup/setupEnzyme.js",
       "!src/index.js",
       "!src/assets/css/**",
-      "!src/store/**",
-      "!data/keyMap.js",
-      "!/node_modules/"
+      "!src/store/**"
     ]
   }
 }
