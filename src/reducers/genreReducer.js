@@ -21,7 +21,7 @@ const genresReducer = (state, action) => {
       return state;
     }
   }
-};
+}
 
 const initialState = {
   genres: [],
