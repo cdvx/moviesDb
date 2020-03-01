@@ -1,18 +1,19 @@
 [![Build Status](https://travis-ci.org/cdvx/moviesDb.svg?branch=master)](https://travis-ci.org/cdvx/moviesDb)
 [![Coverage Status](https://coveralls.io/repos/github/wycliffkas/MoviesDatabase/badge.svg?branch=master)](https://coveralls.io/github/wycliffkas/MoviesDatabase?branch=master)
 
-
-# The Movies Database (simple demo app React/Redux/Infinity Scroll)
+# The Movies Database
 
 The Hosted version can be found [here]().
 
 ## How to run the application
+
 ###### requirement
  - Before you run the application make sure the following are installed
   - `Node, npm or yarn`
 
   
 ###### installation
+
 - clone the repository on the local environment by running:
   `git clone https://github.com/cdvx/moviesDb.git`
 - Run `npm install` if you use npm or `yarn` if you use yarn inorder to install the dependencies
