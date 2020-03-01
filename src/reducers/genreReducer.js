@@ -22,11 +22,11 @@ const genresReducer = (state, action) => {
       return state;
     }
   }
-};
+}
 
 const initialState = {
   genres: [],
   loading: true
-};
+}
 
 export default (state = initialState, action) => genresReducer(state, action);
