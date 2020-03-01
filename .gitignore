@@ -11,4 +11,3 @@ dist/
 yarn.lock
 package-lock.json
 .env
-node_modules
