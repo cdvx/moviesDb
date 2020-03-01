@@ -13,8 +13,7 @@ export class MovieDetails extends Component {
   };
   addToCart(movie) {
     let moviesArray = localStorage.getItem("movies") ?
-      JSON.parse(localStorage.getItem("movies")) :
-      [];
+      JSON.parse(localStorage.getItem("movies")) : [];
     moviesArray.push(movie);
     localStorage.setItem("movies", JSON.stringify(moviesArray));
     alert("Movie has been added to cart!");

@@ -5,6 +5,8 @@
 
 An Application that fetches and displays movies from TheMovieDatabase Api
 
+An Application that fetches and displays movies from TheMovieDatabase Api
+
 The Hosted version can be found [here]().
 
 ## Features
