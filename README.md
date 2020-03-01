@@ -3,8 +3,6 @@
 
 # The Movies Database (simples demo app React,Redux, MoviesDatabase API, Infinity Scroll)
 
-An Application that fetches and displays movies from TheMovieDatabase Api
-
 An application that fetches and displays movies from `TheMovieDatabase Api` and also allows users to add movies to cart.
 
 The Hosted version can be found [here](https://affectionate-sinoussi-76a9de.netlify.com/).
