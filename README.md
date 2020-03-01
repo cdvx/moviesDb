@@ -29,27 +29,27 @@ The Hosted version can be found [here](https://affectionate-sinoussi-76a9de.netl
   `git clone https://github.com/cdvx/moviesDb.git`
 - Create a .env file and add a variable `token=<the movies database token>`
 - Run `source .env` to source the environment variable
-- Run `npm install` if you use npm or `yarn` if you use yarn inorder to install the dependencies
-- Run `yarn start` to launch the app which will automatically launch the app in the browser.
+- Run `npm install` if you use `npm` or `yarn` if you use `npm` inorder to install the dependencies
+- Run `npm run start` to launch the app which will automatically launch the app in the browser.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-#### `yarn start`
+#### `npm run start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
-#### `yarn test`
+#### `npm run test`
 
 Launches the test runner in the interactive watch mode.
 
-#### `yarn test --coverage`
+#### `npm run test --coverage`
 
 Launches the test runner and also displays test coverage table.
 
-#### `yarn build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
