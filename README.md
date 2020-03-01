@@ -3,11 +3,6 @@
 
 # The Movies Database (simples demo app React,Redux, MoviesDatabase API, Infinity Scroll)
 
-<<<<<<< HEAD
-An Application that fetches and displays movies from TheMovieDatabase Api
-=======
-# The Movies Database (simple demo app React/Redux/Infinity Scroll)
->>>>>>> testing and refactor
 
 An Application that fetches and displays movies from TheMovieDatabase Api
 
@@ -22,6 +17,7 @@ The Hosted version can be found [here](https://affectionate-sinoussi-76a9de.netl
 - display movies in a cart
 
 ## How to run the application
+
 ###### requirement
  - Before you run the application make sure the following are installed
   - `Node, npm or yarn`
@@ -34,7 +30,7 @@ The Hosted version can be found [here](https://affectionate-sinoussi-76a9de.netl
 ###### installation
 
 - Clone the repository on the local environment by running:
-  `git clone https://github.com/wycliffkas/MoviesDatabase.git`
+  `git clone https://github.com/cdvx/moviesDb.git`
 - Create a .env file and add a variable `token=<the movies database token>`
 - Run `source .env` to source the environment variable
 - Run `npm install` if you use npm or `yarn` if you use yarn inorder to install the dependencies
