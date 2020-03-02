@@ -5,17 +5,17 @@
 
 An Application that fetches and displays movies from TheMovieDatabase Api
 
-An Application that fetches and displays movies from TheMovieDatabase Api
+An application that fetches and displays movies from `TheMovieDatabase Api` and also allows users to add movies to cart.
 
 The Hosted version can be found [here](https://affectionate-sinoussi-76a9de.netlify.com/).
 
 ## Features
 
-- List several movie categories
+- Display several movie categories
 - Display movies belonging to a selected category with infinite scroll
 - Display detailed page of a movie
 - Add movies to cart
-- display movies in a cart
+- Displays movies in a cart
 
 
 ## How to run the application
@@ -38,20 +38,20 @@ The Hosted version can be found [here](https://affectionate-sinoussi-76a9de.netl
 
 In the project directory, you can run:
 
-### `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
-### `yarn test`
+#### `yarn test`
 
 Launches the test runner in the interactive watch mode.
 
-### `yarn test --coverage`
+#### `yarn test --coverage`
 
 Launches the test runner and also displays test coverage table.
 
-### `yarn build`
+#### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
