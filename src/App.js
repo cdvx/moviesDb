@@ -9,45 +9,24 @@ import {
 } from "react-redux";
 import store from "./store/store";
 import Header from "./commons/Header";
-import {
-  Route,
-  BrowserRouter as Router,
-  Switch
-} from "react-router-dom";
+import NotFound from "./commons/NotFound";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
-    return ( <
-      Provider store = {
-        store
-      } >
-      <
-      Router history = {
-        history
-      } >
-      <
-      Header / >
-      <
-      Switch >
-      <
-      Route exact path = "/"
-      component = {
-        Home
-      }
-      /> <
-      Route exact path = "/movie/:id"
-      component = {
-        MovieDetails
-      }
-      /> <
-      Route exact path = "/cart"
-      component = {
-        Cart
-      }
-      /> <
-      /Switch> <
-      /Router> <
-      /Provider>
+    return (
+      <Provider store={store}>
+        <Router history={history}>
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/home" component={Home} />
+            <Route path="/movie/:id" component={MovieDetails} />
+            <Route exact path="/cart" component={Cart} />
+            <Route component={NotFound} />
+          </Switch>
+        </Router>
+      </Provider>
     );
   }
 }
