@@ -3,7 +3,6 @@ const genresReducer = (state, action) => {
 
     case 'GENRES': {
       if (action.payload) {
-        console.log('payload===>', action.payload.genres)
         return {
           ...state,
           genres: action.payload.genres,
@@ -30,4 +29,4 @@ const initialState = {
   loading: true
 }
 
-export default (state = initialState, action) => (genresReducer(state, action));
+export default (state = initialState, action) => genresReducer(state, action);
