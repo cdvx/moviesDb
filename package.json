@@ -68,7 +68,7 @@
       "!src/assets/css/**",
       "!src/store/**",
       "!data/keyMap.js",
-      "!/node_modules/" 
+      "!/node_modules/"
     ]
   }
 }
