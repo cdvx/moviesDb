@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/cdvx/moviesDb.svg?branch=master)](https://travis-ci.org/cdvx/moviesDb)
-[![Coverage Status](https://coveralls.io/repos/github/wycliffkas/MoviesDatabase/badge.svg?branch=master)](https://coveralls.io/github/wycliffkas/MoviesDatabase?branch=master)
 
 # The Movies Database (simples demo app React,Redux, MoviesDatabase API, Infinity Scroll)
 
