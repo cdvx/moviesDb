@@ -1,44 +1,44 @@
 const moviesReducer = (state, action) => {
   switch (action.type) {
-    case "GET_MOVIES": {
+    case 'GET_MOVIES': {
       if (action.payload) {
         return {
           ...state,
           movies: action.payload.results,
-          loading: false
+          loading: false,
         };
       }
     }
-    case "MORE_MOVIES": {
+    case 'MORE_MOVIES': {
       if (action.payload) {
         return {
           ...state,
           movies: [...state.movies, ...action.payload.results],
-          loading: false
+          loading: false,
         };
       }
     }
-    case "GET_MOVIES_ERROR": {
+    case 'GET_MOVIES_ERROR': {
       if (action.payload) {
         return {
           ...state,
-          message: action.payload
+          message: action.payload,
         };
       }
     }
-    case "MORE_MOVIES_ERROR": {
+    case 'MORE_MOVIES_ERROR': {
       if (action.payload) {
         return {
           ...state,
-          message: action.payload
+          message: action.payload,
         };
       }
     }
-    case "EACH_MOVIE": {
+    case 'EACH_MOVIE': {
       if (action.payload) {
         return {
           ...state,
-          movie: action.payload
+          movie: action.payload,
         };
       }
     }
@@ -51,7 +51,7 @@ const moviesReducer = (state, action) => {
 const initialState = {
   movies: [],
   movie: {},
-  loading: true
+  loading: true,
 };
 
-export default (state = initialState, action) => moviesReducer(state, action);
+export default (state = initialState, action) => moviesReducer (state, action);

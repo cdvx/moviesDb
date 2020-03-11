@@ -1,22 +1,22 @@
 const tmdToken = process.env.token;
 const moviesUrl = `https://api.themoviedb.org/3/genre/movie/list?api_key=${tmdToken}&language=en-US`;
 
-import axios from "axios";
+import axios from 'axios';
 
 export const genres = () => {
   return dispatch => {
     axios
-      .get(moviesUrl)
-      .then(data => {
-        dispatch({
-          type: "GENRES",
-          payload: data.data
+      .get (moviesUrl)
+      .then (data => {
+        dispatch ({
+          type: 'GENRES',
+          payload: data.data,
         });
       })
-      .catch(error => {
-        dispatch({
-          type: "GENRES_ERROR",
-          payload: error
+      .catch (e => {
+        dispatch ({
+          type: 'GENRES_ERROR',
+          payload: e,
         });
       });
   };

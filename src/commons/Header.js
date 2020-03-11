@@ -1,13 +1,11 @@
-import React from "react";
-import {
-  NavLink
-} from "react-router-dom";
+import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 const Header = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-        <a href="#" className="navbar-brand" style={{ paddingLeft: "180px" }}>
+        <a href="#" className="navbar-brand" style={{paddingLeft: '180px'}}>
           <img
             src="https://www.themoviedb.org/assets/2/v4/logos/primary-green-d70eebe18a5eb5b166d5c1ef0796715b8d1a2cbc698f96d311d62f894ae87085.svg"
             height="46"

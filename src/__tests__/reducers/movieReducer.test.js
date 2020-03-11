@@ -31,7 +31,7 @@ describe("Movie Reducer", () => {
       MovieReducer(movies, actionTypes(GET_MOVIES_ERROR, "an error ocurred"))
     ).toEqual({
       ...movies,
-      error: "an error ocurred"
+      message: "an error ocurred"
     });
   });
 
@@ -40,7 +40,7 @@ describe("Movie Reducer", () => {
       MovieReducer(movies, actionTypes(MORE_MOVIES_ERROR, "an error ocurred"))
     ).toEqual({
       ...movies,
-      error: "an error ocurred"
+      message: "an error ocurred"
     });
   });
 });

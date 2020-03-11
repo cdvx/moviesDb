@@ -1,21 +1,20 @@
 const genresReducer = (state, action) => {
   switch (action.type) {
-
     case 'GENRES': {
       if (action.payload) {
         return {
           ...state,
           genres: action.payload.genres,
-          loading: false
-        }
+          loading: false,
+        };
       }
     }
     case 'GENRES_ERROR': {
       if (action.payload) {
         return {
           ...state,
-          message: action.payload
-        }
+          message: action.payload,
+        };
       }
     }
     default: {
@@ -26,7 +25,7 @@ const genresReducer = (state, action) => {
 
 const initialState = {
   genres: [],
-  loading: true
-}
+  loading: true,
+};
 
-export default (state = initialState, action) => genresReducer(state, action);
+export default (state = initialState, action) => genresReducer (state, action);
