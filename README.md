@@ -15,19 +15,20 @@ The Hosted version can be found [here]().
 - Add movies to cart
 - display movies in a cart
 
+
 ## How to run the application
 
-###### requirement
+###### requirements
  - Before you run the application make sure the following are installed
   - `Node, npm or yarn`
-
-###### requirements
 
   
 ###### installation
 
-- clone the repository on the local environment by running:
+- Clone the repository on the local environment by running:
   `git clone https://github.com/cdvx/moviesDb.git`
+- Create a .env file and add a variable `token=<the movies database token>`
+- Run `source .env` to source the environment variable
 - Run `npm install` if you use npm or `yarn` if you use yarn inorder to install the dependencies
 - Run `yarn start` to launch the app which will automatically launch the app in the browser.
 

@@ -5,6 +5,7 @@ node_modules/
 .env
 dist/
 .DS_Store
+*/.DS_Store
 .idea
 .vscode/
 yarn.lock
