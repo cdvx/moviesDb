@@ -4,7 +4,6 @@ const moviesReducer = (state, action) => {
       if (action.payload) {
         return {
           ...state,
-          //   movies: [...state.movies, ...action.payload.results],
           movies: action.payload.results,
           loading: false
         };
@@ -12,11 +11,9 @@ const moviesReducer = (state, action) => {
     }
     case "MORE_MOVIES": {
       if (action.payload) {
-        console.log("thi--->", action.payload);
         return {
           ...state,
           movies: [...state.movies, ...action.payload.results],
-          // movies: action.payload.results,
           loading: false
         };
       }
@@ -39,7 +36,6 @@ const moviesReducer = (state, action) => {
     }
     case "EACH_MOVIE": {
       if (action.payload) {
-        console.log("thiis is the payload--->", action.payload);
         return {
           ...state,
           movie: action.payload
