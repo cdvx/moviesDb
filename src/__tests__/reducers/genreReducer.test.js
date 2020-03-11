@@ -26,7 +26,7 @@ describe("Genre Reducer", () => {
       GenreReducer(genres, actionTypes(GENRES_ERROR, "an error ocurred"))
     ).toEqual({
       ...genres,
-      error: "an error ocurred"
+      message: "an error ocurred"
     });
   });
 });
