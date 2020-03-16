@@ -1,5 +1,5 @@
 
-# The Movies Database (simples demo app React,Redux, MoviesDatabase API, Infinity Scroll)
+# The Movies Database (simple demo app React,Redux, MoviesDatabase API, Infinity Scroll)
 
 An application that fetches and displays movies from `TheMovieDatabase Api` and also allows users to add movies to cart.
 
